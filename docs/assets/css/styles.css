@@ -1,0 +1,51 @@
+.menuTarjeta {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.menuTarjeta a {
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (min-width: 300px) {
+  .menuTarjeta {
+    width: 100%;
+  }
+}
+
+.portada img {
+  width: 100%;
+}
+
+.about {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.acomodar {
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portada button {
+  position: absolute;
+  margin-right: 4px;
+}
+
+.acomodar a {
+  color: #fff;
+  text-decoration: none;
+  background: #005e7b;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 25px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+}
+
